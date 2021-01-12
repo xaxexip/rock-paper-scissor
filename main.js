@@ -1,6 +1,8 @@
 function computerPlay() {
-    let choices = ["Rock", "Paper", "Scissors"];
+    let choices = ["rock", "paper", "scissors"];
     return choices[Math.round(Math.random() * (choices.length - 1))]
 }
 
-console.log(computerPlay())
+function playRound(playerSelection, computerSelection) {
+    if playerSelection == "rock"
+}
